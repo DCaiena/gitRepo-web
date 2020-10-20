@@ -1,0 +1,17 @@
+.loading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.card-title{
+    font-weight:bold;
+    font-size:30;
+}
+
+.button{
+    display:flex; 
+    align-items:center; 
+    justify-content:center;
+}
