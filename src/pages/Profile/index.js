@@ -1,13 +1,18 @@
 import React, {  useState, useEffect } from 'react';
 import {
-    Card, CardImg, CardText, CardBody,
-    CardTitle, Container, Row, Col
+    Card, 
+    CardImg, 
+    CardText, 
+    CardBody,
+    CardTitle, 
+    Container, 
+    Row, 
+    Col
   } from 'reactstrap';
 import Loading from '../../components/Loading'
 import { RiGitRepositoryLine } from 'react-icons/ri'
 import { DiGitCommit } from 'react-icons/di'
 import './index.css'
-
 
 function Profile(props) {
     const [ repoList, setRepoList ] = useState([])
@@ -74,7 +79,6 @@ function Profile(props) {
                                     }
                                 </div>
                             </CardBody>
-                    
                             </Col>
                             </Row>
                         </Card>

@@ -1,5 +1,13 @@
 import React, {  useState, useEffect } from 'react';
-import {  Card, CardImg, CardBody, CardTitle, Container, Row, Col, Button } from 'reactstrap';
+import {  
+    Card, 
+    CardImg, 
+    CardBody, 
+    CardTitle, 
+    Container, 
+    Row, 
+    Col, 
+    Button } from 'reactstrap';
 import { useHistory } from 'react-router-dom'
 import './index.css'
 import {AiFillInfoCircle} from 'react-icons/ai'
