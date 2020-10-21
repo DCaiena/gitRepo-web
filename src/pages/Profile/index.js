@@ -7,11 +7,13 @@ import {
     CardTitle, 
     Container, 
     Row, 
-    Col
+    Col,
+    Button
   } from 'reactstrap';
 import Loading from '../../components/Loading'
 import { RiGitRepositoryLine } from 'react-icons/ri'
 import { DiGitCommit } from 'react-icons/di'
+import { AiOutlineArrowLeft } from 'react-icons/ai'
 import './index.css'
 
 function Profile(props) {
@@ -49,6 +51,13 @@ function Profile(props) {
            <Container>
                 <Row>
                    <Col xl={12} md={12} >
+                       <Button 
+                       onClick={() => props.history.goBack()}
+                       color='primary'>
+                       <AiOutlineArrowLeft
+                       size={20}
+                       />
+                       </Button>
                         <Card  className="shadow p-3 mb-5 bg-white rounded card-style" >
                             <Row  >
                             <Col xl={6} md={12} >
